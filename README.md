@@ -25,6 +25,7 @@ resources:
     pcf_opsman_admin_client_id: {{pcf_opsman_admin_client_id}}
     pcf_opsman_admin_client_secret: {{pcf_opsman_admin_client_secret}}
     opsman_url: {{opsman_url}}
+    mfa_enabled: true
 ```
 
 Then add the resource to your job:
